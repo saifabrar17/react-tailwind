@@ -14,11 +14,11 @@ const Navbar = () => {
     ]
 
     return (
-        <nav>
-            <div className='w-6 h-6 md:hidden' onClick={() => setOpen(!open)}>
+        <nav className='bg-indigo-200'>
+            <div className='w-6 bg-indigo-200 h-6 md:hidden' onClick={() => setOpen(!open)}>
                 {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
             </div>
-            <ul className={`md:flex justify-center absolute duration-500 ease-in ${open ? 'top-6' :'top-[-120px]'}`}>
+            <ul className={`md:flex justify-center w-full bg-indigo-200 md:static absolute duration-500 ease-in ${open ? 'top-6' :'top-[-120px]'}`}>
                 {
                     routes.map(route => <Link
                         key={route.id}
