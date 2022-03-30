@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# A Practice project as beginner. Mentor: Jhankar Mahbub
+## React Tailwind, Dynamic data loading using components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Netlify live: https://react-tailwind-saifabrar17.netlify.app/ 
+
+
 
 ## Available Scripts
 

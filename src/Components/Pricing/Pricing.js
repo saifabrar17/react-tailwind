@@ -1,4 +1,4 @@
-import { dblClick } from '@testing-library/user-event/dist/click';
+// import { dblClick } from '@testing-library/user-event/dist/click';
 import React from 'react';
 import PricingOption from '../PricingOption/PricingOption';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRightIcon, CheckCircleIcon, MenuIcon, XIcon } from '@heroicons/react/solid';
+import { ArrowRightIcon } from '@heroicons/react/solid';
 import Benefit from '../Benefit/Benefit';
 
 const PricingOption = (props) => {
